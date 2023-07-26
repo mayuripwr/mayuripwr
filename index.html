@@ -1,0 +1,461 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <!--background element-->
+    
+</head>
+<body>
+  
+    
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><img src="./images/unnamed.png"alt="" width="200" height="100"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="packages.html">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallary.html">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="map.html">Map</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+              
+            
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+    <!-- Home Section Start -->
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To <b>MAVAL</b></h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>Explore Maval With Us</p>
+            <a href="book.html">Book Place</a>
+            <a href="login.html">Log In  </a>
+            
+        </div>
+    </div>
+    
+    <!-- Home Section End -->
+    <!-- Section Book Start -->
+    <!-- <section class="book" id="book">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>B</span>ook</h1>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/booknew.jpg"alt="" width="650" height="400">
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="booking.php" method="POST" enctype="multipart/form-data">
+              <select class="form-control" name="location" placeholder="Location" required>
+                <option class="form-control">Select Location</option>
+                <option class="form-control" >Matheran</option>
+                <option class="form-control" >Karala caves</option>
+                <option class="form-control" >Pawana lake camping</option>
+                <option class="form-control" >Prati shirdi</option>
+                <option class="form-control" >Lohgad</option>
+                <option class="form-control" >Wet n joy</option>
+              </select><br>
+              <input type="text" class="form-control" name="members" placeholder="How Many Members" required><br>
+              <input type="date" class="form-control" name="fromdate" placeholder="Arrivals" required><br>  
+              <input type="date" class="form-control" name="todate" placeholder="Leaving" required><br>
+              <textarea class="form-control" rows="5" name="details" placeholder="Enter Your Name & Details"></textarea>
+              <a href="index.html"><input type="submit" value="Book Now" class="submit" required></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    
+    <!-- Section Book End -->
+    <!-- Section Packages Start -->
+    <!-- <section class="packages" id="packages">
+      <div class="container">
+        
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/wet n joy.jpg.jpg" alt="" width="400" height="250">
+              <div class="card-body">
+                <h3>WET N JOY</h3>
+                <p>Water park featuring slides with twists & turns, a wave pool & a tubing river, plus eateries.
+                  <h4><b1>Address:</b1></h4> Old Pune Mumbai Highway NH-4 Post-Takve, Mundhaware, Maharashtra 410405
+                  <h4>Hours:</h4> Open:7:00 pm , Closes 8:30 pm
+                  <h4>Phone:</h4> 091122 78080</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>2220 rs</strong></h6>
+                
+                <a href="#book">Book Now</a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/pawna.jpg.jpg" alt="" widht="400" height="250">
+              <div class="card-body">
+                <h3>PAWANA LAKE CAMPING</h3>
+                <p>Pavana Lake, also known as Pavana Dam Reservoir and Pawna Lake, is a reservoir turned artificial lake in the Indian state of Maharashtra, formed by the Pavana Dam across the Pavana River in Pune district. Wikipedia
+                  <h4>Surface elevation:</h4>604 m
+                  <h4>Location: </h4>Maval taluka, Pune district, Maharashtra, India
+                  <h4>HOURS</h4>OPEN: 24 hours</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>800rs</strong></h6>
+                
+                
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/pakistan.png" alt="">
+              <div class="card-body">
+                <img src="./images/prati.jpg.jpg" alt="" widht="500" height="250">
+                <h3>PRATI SHIRDI</h3>
+                <p>Food is served to visitors at this landmark Hindu complex with a triple-layered brickwork design.
+                  <h4>address:</h4> Ap- shirgaon Ta.mawal, Dist, Pune, Maharashtra 410506
+                  <h4>Hours:</h4>Open ⋅ Closes 10 pm
+                  <h4>Phone:</h4> 082630 15337</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>0 Rs</strong></h6>
+                
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/italy.png" alt="">
+              <div class="card-body">
+                <img src="./images/matheran.jpg" alt="" widht="400" height="250">
+                <h3>MATHERAN</h3>
+                <p>Matheran is part of the Mumbai Metropolitan Region, and one of the smallest hill stations in India</p>
+                <H4>Hours:</H4><P>OPEN:6 AM CLOSE: 7PM</P>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>200 Rs</strong></h6>
+                
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/india.png" alt="">
+              <div class="card-body">
+                <img src="./images/karl.jpg.jpg" alt="" widht="500" height="250">
+                <h3>kARLE CAVES</h3>
+                <p>Karla Caves are just 8 kilometres from the Bhaja caves. These caves were excavated from 1st century CE to 5th – 6th centuries CE. Karla Cave is the largest Hinayana Buddhist chaitya (temple) in India. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked "></i>
+                  <i class="fa-solid fa-star  checked"></i>
+                </div>
+                <h6>Price: <strong>100Rs</strong></h6>
+               
+               <a href="#book">Book Now</a>
+
+          
+          </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/us.png" alt="">
+              <div class="card-body">
+                <img src="./images/lohgad.jpg" alt="" widht="400" height="250">
+                <h3>LOHGAD</h3>
+                <p>Lohagad is one of the many hill forts of Maharashtra state in India. Situated close to the hill station Lonavala and 52 km northwest of Pune, Lohagad rises to an elevation of 1,033 m above sea level. The fort is connected to the neighboring Visapur fort by a small range.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>500 Rs</strong></h6>
+                
+                
+<a href="#book">Book Now</a>
+
+
+ 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+      </div>
+    </div>
+    <link rel="stylesheet" href="style.css">
+
+<title>Document</title>
+
+ 
+
+</head>
+
+ 
+
+<body>
+
+ 
+
+  
+
+  <div class="container">
+
+  <iframe src="https://www.google.com/maps/d/embed?mid=12PBtDcxsgFFn6F8PAvy-ZSuY4Cghhzw&ehbc=2E312F" width="1500" height="480"></iframe>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+ -->
+ 
+    <!-- Section Packages End -->
+    <!-- Section Services Start -->
+    <!-- <section class="services" id="services">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>S</span>ervices</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>Affordable Hotel</h3>
+                <p>Find affordable hotel options on our website by comparing prices, checking for discounts, and considering location and timing. Let us help you save money on your next trip without sacrificing comfort or quality."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Food & Drinks</h3>
+                <p>Discover the best local cuisine and drinks with our comprehensive guides, highlighting the must-try dishes and drinks in each destination. From street food to fine dining, we've got you covered with recommendations for every budget and taste."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Safty Guide</h3>
+                <p>"Stay safe while traveling with our comprehensive safety guide, featuring tips on how to protect yourself and your belongings, navigate unfamiliar areas, and avoid potential dangers. Your safety is our top priority, and we want you to feel confident and prepared during your travels."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <h3>Around The World</h3>
+                <p>"Explore the world with our curated travel guides, showcasing the top attractions, hidden gems, and unique experiences in destinations around the globe. Let us inspire you to embark on your next adventure and make memories that will last a lifetime."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Fastest Travel</h3>
+                <p>"Plan your trip quickly and easily with our fast and reliable travel information. From flight schedules to transportation options, we provide up-to-date information to help you save time and hassle during your travels."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <h3>Adventures</h3>
+                <p>"Get ready for an adventure of a lifetime with our exciting travel guides, featuring the best outdoor activities, extreme sports, and adrenaline-pumping experiences in destinations around the world. Let us help you take your travels to the next level and create memories you'll never forget."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Section Services End -->
+    <!-- Section Gallary Start -->
+    <!-- <section class="gallary" id="gallary">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>G</span>allary</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g1.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g2.jpeg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g3.jpeg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g4.jpeg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g5.jpg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g6.jpg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Section Gallary End -->
+    <!-- About Start -->
+    <!-- <section class="about" id="about">
+      <div class="container">
+        <div class="main-txt">
+          <h1>About <span>Us</span></h1>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/about-img.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>How Travel Agency Work</h2>
+            <p>Our mission is to make travel planning as easy and stress-free as possible. We believe that everyone should have the opportunity to travel, and we are committed to providing affordable and accessible travel options to our customers.
+
+              Our website offers a wide range of travel resources, including information on popular destinations, local attractions, and accommodations. We work with a variety of travel partners to offer our customers the best deals on flights, hotels, and activities, and we are always looking for new ways to help people save money on their trips.
+              
+              At our core, we believe that travel is about more than just seeing new places - it's about connecting with new people, trying new things, and gaining a deeper understanding of the world around us. Whether you're a seasoned traveler or planning your first trip, we are here to help you create the trip of a lifetime.
+              
+              Thank you for choosing our tourism website as your travel resource. We are excited to help you plan your next adventure!
+              </p>
+            <button id="about-btn">Read More...</button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- About End -->
+    <!-- Footer Start -->
+    <footer id="footer">
+      <h1><span>T</span>ravel</h1>
+      <p>"Travelling broadens the mind and enriches the soul, offering new experiences, perspectives, and memories to cherish for a lifetime."</p>
+      <div class="social-links">
+        <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/groups/2638877619729663/?ref=share&mibextid=KtfwRi"target="blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com/mavaltourism?igshid=NTc4MTIwNjQ2YQ==" target="blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://youtube.com/playlist?list=PLpnQ1TzltcJTLp8Pv31uLrfanHvRHezzB"target ="blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://in.pinterest.com/" target="blank"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+      <div class="credit">
+        <p>Designed By <a href="#">DYPIANS</a></p>
+      </div>
+      <div class="copyright">
+        <p>&copy;Copyright SE B3 BACTH. All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
